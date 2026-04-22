@@ -21,8 +21,9 @@ export function AboutProject() {
                 <Shield className="h-8 w-8 text-primary" />
               </div>
               <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
-                SkyFuse is being developed as a lightweight CUAS fusion and C2 integration layer aligned with real-world
-                operational requirements in sensor interoperability, tactical communications, and edge deployment.
+                SkyFuse is being developed as a lightweight CUAS fusion and C2 integration layer aligned with operational
+                CUAS requirements and real-world deployment constraints in sensor interoperability, tactical communications,
+                and edge environments.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {tags.map((t) => (

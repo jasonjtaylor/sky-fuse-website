@@ -10,7 +10,7 @@ const steps: { icon: LucideIcon; step: string; title: string; description: strin
   {
     icon: Cpu,
     step: "02",
-    title: "Inputs Normalize",
+    title: "Multi-Sensor Data Ingest",
     description: "SkyFuse ingests and standardizes heterogeneous sensor data at the tactical edge.",
   },
   {

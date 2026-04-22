@@ -53,8 +53,8 @@ export function Capabilities() {
             </span>
             <h2 className="mb-6 font-display text-3xl font-bold text-foreground md:text-5xl">Key Capabilities</h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Vendor-agnostic fusion that unifies heterogeneous CUAS inputs into one operational picture—operator clarity
-              and TAK-ready output.
+              Vendor-agnostic fusion layer that unifies heterogeneous CUAS systems into a single operational picture—delivering
+              operator clarity and TAK-ready output.
             </p>
           </div>
 

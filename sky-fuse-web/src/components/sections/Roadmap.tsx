@@ -10,7 +10,7 @@ const current = [
 
 const future = [
   "Multi-target simultaneous tracking",
-  "Pattern and behavior analysis",
+  "Track-level behavioral analysis",
   "Advanced RF identification",
   "Automated threat scoring",
   "Workflow and alert escalation",

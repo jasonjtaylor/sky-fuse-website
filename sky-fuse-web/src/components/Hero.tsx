@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { RadarBackdrop } from "@/components/RadarBackdrop";
 
 const stats = [
-  { value: "3", label: "Sensor Inputs" },
+  { value: "3", label: "Multi-Sensor Integration" },
   { value: "<5s", label: "Track Updates" },
   { value: "100%", label: "Edge Ready" },
 ] as const;
@@ -45,8 +45,8 @@ export function Hero() {
             className="mx-auto mb-10 max-w-2xl animate-fade-in-up text-lg leading-relaxed text-muted-foreground/80 opacity-0"
             style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
           >
-            SkyFuse fuses RF, visual, and acoustic sensor inputs into a single operational picture, enabling real-time
-            CUAS awareness without replacing existing systems.
+            SkyFuse fuses RF, visual, and acoustic sensor systems into a single operational picture, enabling layered
+            CUAS operations without replacing existing systems.
           </p>
 
           <div

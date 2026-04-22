@@ -17,8 +17,8 @@ export function WhatIsSkyFuse() {
             </h2>
             <p className="mx-auto max-w-3xl text-lg leading-relaxed text-muted-foreground">
               SkyFuse is a software-defined fusion and interoperability layer for counter-UAS operations, designed to run on
-              laptops and edge devices. It integrates RF, visual, acoustic, and radar-ready sensor inputs into a unified
-              operational picture with minimal hardware overhead.
+              laptops and edge devices. It integrates RF, visual, and acoustic sensor systems into a unified operational
+              picture, with an architecture extensible to additional sensor types (e.g., radar).
             </p>
           </div>
 
