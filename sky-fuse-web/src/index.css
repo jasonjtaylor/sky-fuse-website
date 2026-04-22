@@ -4,28 +4,28 @@
 
 @layer base {
   :root {
-    /* #06b6d4 accent → HSL 188 86% 53% */
+    /* Original SkyFuse palette — mint / teal primary */
     --background: 222 30% 6%;
     --foreground: 210 20% 95%;
     --card: 222 25% 10%;
     --card-foreground: 210 20% 95%;
     --popover: 222 25% 10%;
     --popover-foreground: 210 20% 95%;
-    --primary: 188 86% 53%;
+    --primary: 166 100% 70%;
     --primary-foreground: 222 30% 6%;
     --secondary: 220 20% 15%;
     --secondary-foreground: 210 20% 90%;
     --muted: 220 15% 18%;
     --muted-foreground: 215 15% 55%;
-    --accent: 188 80% 45%;
+    --accent: 166 80% 45%;
     --accent-foreground: 210 20% 95%;
     --destructive: 0 62% 50%;
     --destructive-foreground: 210 20% 95%;
     --border: 220 20% 18%;
     --input: 220 20% 18%;
-    --ring: 188 86% 53%;
+    --ring: 166 100% 70%;
     --radius: 0.5rem;
-    --glow-primary: 188 86% 53%;
+    --glow-primary: 166 100% 70%;
     --surface-elevated: 222 25% 12%;
     --gradient-start: 222 30% 8%;
     --gradient-end: 220 25% 4%;

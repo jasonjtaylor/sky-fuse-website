@@ -43,7 +43,7 @@ export function RadarBackdrop() {
           <div
             className="absolute left-1/2 top-1/2 h-1 w-1/2"
             style={{
-              background: "linear-gradient(90deg, hsl(188 86% 53% / 0.6), transparent)",
+              background: "linear-gradient(90deg, hsl(166 100% 70% / 0.6), transparent)",
               transformOrigin: "left center",
             }}
           />
@@ -52,7 +52,7 @@ export function RadarBackdrop() {
             style={{
               width: "50%",
               height: "50%",
-              background: "conic-gradient(from 0deg, hsl(188 86% 53% / 0.15), transparent 30deg)",
+              background: "conic-gradient(from 0deg, hsl(166 100% 70% / 0.15), transparent 30deg)",
               transform: "translateY(-2px)",
             }}
           />

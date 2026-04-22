@@ -53,7 +53,7 @@ export function Contact() {
 
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
               <div className="space-y-6">
-                <div className="rounded-2xl border border-border bg-card p-8 shadow-[0_0_20px_hsl(188_86%_53%/0.08)]">
+                <div className="rounded-2xl border border-border bg-card p-8 shadow-[0_0_20px_hsl(166_100%_70%/0.08)]">
                   <h2 className="mb-6 font-display text-xl font-semibold text-foreground">SkyFuse</h2>
                   <ul className="space-y-5 text-muted-foreground">
                     <li className="flex gap-3">

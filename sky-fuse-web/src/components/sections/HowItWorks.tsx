@@ -55,7 +55,7 @@ export function HowItWorks() {
                 <div key={item.step} className="group relative">
                   <div className="flex flex-col items-center text-center">
                     <div className="relative mb-6">
-                      <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-border bg-card shadow-lg transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-[0_0_20px_hsl(188_86%_53%/0.2)]">
+                      <div className="flex h-20 w-20 items-center justify-center rounded-2xl border border-border bg-card shadow-lg transition-all duration-300 group-hover:border-primary/50 group-hover:shadow-[0_0_20px_hsl(166_100%_70%/0.2)]">
                         <item.icon className="h-8 w-8 text-primary" />
                       </div>
                       <div className="absolute -right-2 -top-2 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">
