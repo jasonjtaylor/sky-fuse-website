@@ -22,6 +22,7 @@ export function Contact() {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
           "form-name": "contact",
+          "bot-field": (form.elements.namedItem("bot-field") as HTMLInputElement)?.value ?? "",
           name: (form.elements.namedItem("name") as HTMLInputElement).value,
           email: (form.elements.namedItem("email") as HTMLInputElement).value,
           company: (form.elements.namedItem("company") as HTMLInputElement).value,
