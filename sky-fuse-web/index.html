@@ -12,12 +12,16 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sora:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Netlify form discovery (keep in sync with Contact form fields) -->
+    <!--
+      Netlify parses this at deploy time (Form detection). The visible form lives in React
+      and POSTs the same field names + form-name=contact. See: https://docs.netlify.com/forms/setup/
+    -->
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <input type="text" name="company" />
       <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
     </form>
   </head>
   <body>
