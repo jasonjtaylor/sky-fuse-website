@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Crosshair, Menu, X } from "lucide-react";
+import { Menu, Radar, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -36,7 +36,7 @@ export function Navbar() {
       <div className="container mx-auto px-6">
         <div className="flex h-16 items-center justify-between md:h-20">
           <Link to="/" className="group flex items-center gap-2">
-            <Crosshair className="h-7 w-7 text-primary transition-transform duration-300 group-hover:rotate-45" />
+            <Radar className="h-7 w-7 text-primary transition-transform duration-300 group-hover:rotate-45" />
             <span className="font-display text-xl font-semibold text-foreground">
               Sky<span className="text-primary">Fuse</span>
             </span>

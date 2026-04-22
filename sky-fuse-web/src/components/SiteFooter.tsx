@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Crosshair } from "lucide-react";
+import { Radar } from "lucide-react";
 import { CONTACT_EMAIL } from "@/lib/site";
 
 export function SiteFooter() {
@@ -11,7 +11,7 @@ export function SiteFooter() {
           <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
             <div className="flex flex-col items-center gap-3 md:items-start">
               <div className="flex items-center gap-2">
-                <Crosshair className="h-6 w-6 text-primary" />
+                <Radar className="h-6 w-6 text-primary" />
                 <span className="font-display text-xl font-semibold text-foreground">
                   Sky<span className="text-primary">Fuse</span>
                 </span>
