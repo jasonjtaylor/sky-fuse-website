@@ -5,8 +5,13 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { Button } from "@/components/ui/button";
 import { CONTACT_EMAIL, CONTACT_PHONE_DISPLAY, CONTACT_PHONE_TEL } from "@/lib/site";
 
-function encode(data: Record<string, string>) {
-  return new URLSearchParams(data).toString();
+function formDataToUrlEncoded(form: HTMLFormElement) {
+  const data = new FormData(form);
+  const params = new URLSearchParams();
+  for (const [key, value] of data.entries()) {
+    params.append(key, value instanceof File ? value.name : value);
+  }
+  return params.toString();
 }
 
 export function Contact() {
@@ -20,19 +25,13 @@ export function Contact() {
       const res = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({
-          "form-name": "contact",
-          "bot-field": (form.elements.namedItem("bot-field") as HTMLInputElement)?.value ?? "",
-          name: (form.elements.namedItem("name") as HTMLInputElement).value,
-          email: (form.elements.namedItem("email") as HTMLInputElement).value,
-          company: (form.elements.namedItem("company") as HTMLInputElement).value,
-          message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
-        }),
+        body: formDataToUrlEncoded(form),
       });
-      if (!res.ok) throw new Error("Request failed");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       setStatus("ok");
       form.reset();
-    } catch {
+    } catch (err) {
+      console.error("Contact form submit failed:", err);
       setStatus("error");
     }
   }
