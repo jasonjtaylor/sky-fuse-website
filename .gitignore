@@ -3,3 +3,6 @@
 .env
 .env.*
 !.env.example
+
+sky-fuse-web/node_modules/
+sky-fuse-web/dist/

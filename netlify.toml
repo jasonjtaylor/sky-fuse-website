@@ -1,5 +1,7 @@
 [build]
-  publish = "sky-fuse-web/dist"
+  base = "sky-fuse-web"
+  command = "npm run build"
+  publish = "dist"
 
 # Client-side routing (Vite/React SPA)
 [[redirects]]
