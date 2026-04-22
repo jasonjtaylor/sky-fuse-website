@@ -5,31 +5,31 @@ const steps: { icon: LucideIcon; step: string; title: string; description: strin
     icon: Camera,
     step: "01",
     title: "Sensors Observe",
-    description: "Camera, RF, and acoustic sensors continuously monitor the airspace for activity.",
+    description: "RF, visual, and acoustic systems monitor the airspace and generate detection inputs.",
   },
   {
     icon: Cpu,
     step: "02",
-    title: "AI Processing",
-    description: "AI and signal processing algorithms extract features and identify potential threats.",
+    title: "Inputs Normalize",
+    description: "SkyFuse ingests and standardizes heterogeneous sensor data at the tactical edge.",
   },
   {
     icon: Layers,
     step: "03",
-    title: "Fusion Validates",
-    description: "The fusion engine cross-validates detections across sensors to minimize false alarms.",
+    title: "Fusion Correlates",
+    description: "Cross-sensor detections are correlated into a unified track with confidence scoring.",
   },
   {
     icon: MonitorDot,
     step: "04",
     title: "Operator Sees",
-    description: "Live situational picture displayed on the dashboard with confidence metrics.",
+    description: "A live operational picture is displayed through the dashboard and map interface.",
   },
   {
     icon: Share2,
     step: "05",
     title: "Data Shared",
-    description: "Detection data exported via CoT to command systems and tactical networks.",
+    description: "Track data is exported via CoT into TAK-enabled command and control environments.",
   },
 ];
 
@@ -44,7 +44,7 @@ export function HowItWorks() {
             </span>
             <h2 className="mb-6 font-display text-3xl font-bold text-foreground md:text-5xl">How It Works</h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              From sensor input to actionable intelligence in seconds.
+              From distributed sensors to a correlated track and TAK-enabled C2 output.
             </p>
           </div>
 

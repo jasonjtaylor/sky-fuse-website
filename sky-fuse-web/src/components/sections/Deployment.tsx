@@ -1,11 +1,11 @@
 import { Backpack, Boxes, GraduationCap, MapPin, Zap, type LucideIcon } from "lucide-react";
 
 const bullets: { icon: LucideIcon; text: string }[] = [
-  { icon: Boxes, text: "Works with commodity cameras and sensors" },
+  { icon: Boxes, text: "Works with existing sensors and camera systems" },
   { icon: Backpack, text: "Backpack-portable footprint" },
   { icon: GraduationCap, text: "Minimal operator training required" },
   { icon: MapPin, text: "Designed for austere and temporary deployments" },
-  { icon: Zap, text: "Scales from prototype to operational system" },
+  { icon: Zap, text: "Scales from prototype to operational integration layer" },
 ];
 
 export function Deployment() {
@@ -22,9 +22,8 @@ export function Deployment() {
                 Designed for Real-World Use
               </h2>
               <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
-                SkyFuse is built for environments where traditional CUAS systems don&apos;t fit — whether that&apos;s a
-                remote training range, a rapidly deployed team, or a facility that needs effective detection without the
-                complexity.
+                SkyFuse is built for environments where traditional CUAS systems are difficult to deploy, integrate, or
+                scale — including remote sites, temporary deployments, and infrastructure-constrained operations.
               </p>
               <div className="space-y-4">
                 {bullets.map((item) => (

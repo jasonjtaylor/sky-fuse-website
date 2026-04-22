@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { RadarBackdrop } from "@/components/RadarBackdrop";
 
 const stats = [
-  { value: "3", label: "Sensor Types" },
-  { value: "<5s", label: "Detection Time" },
-  { value: "100%", label: "Offline Ready" },
+  { value: "3", label: "Sensor Inputs" },
+  { value: "<5s", label: "Track Updates" },
+  { value: "100%", label: "Edge Ready" },
 ] as const;
 
 export function Hero() {
@@ -23,7 +23,7 @@ export function Hero() {
             style={{ animationDelay: "0s", animationFillMode: "forwards" }}
           >
             <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
-            <span className="text-sm font-medium text-primary">Counter-UAS Detection System</span>
+            <span className="text-sm font-medium text-primary">Layered CUAS Fusion &amp; C2 Gateway</span>
           </div>
 
           <h1
@@ -38,15 +38,15 @@ export function Hero() {
             className="mb-6 animate-fade-in-up font-display text-xl font-light text-muted-foreground opacity-0 md:text-2xl"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            Compact Multi-Sensor Counter-UAS Detection
+            Unified CUAS Sensor Fusion &amp; C2 Integration
           </p>
 
           <p
             className="mx-auto mb-10 max-w-2xl animate-fade-in-up text-lg leading-relaxed text-muted-foreground/80 opacity-0"
             style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
           >
-            Real-time drone detection and tracking using AI, sensor fusion, and commodity hardware. Designed for rapid
-            deployment where traditional CUAS systems are too complex or expensive.
+            SkyFuse fuses RF, visual, and acoustic sensor inputs into a single operational picture, enabling real-time
+            CUAS awareness without replacing existing systems.
           </p>
 
           <div

@@ -1,19 +1,19 @@
 import { ArrowRight, CheckCircle2, Circle, Layers } from "lucide-react";
 
 const current = [
-  "AI-powered drone detection",
   "Multi-sensor fusion engine",
   "Real-time bearing estimation",
-  "Browser-based dashboard",
-  "TAK/CoT integration",
+  "Browser-based operator dashboard",
+  "TAK / CoT integration",
+  "Edge-deployable operation",
 ];
 
 const future = [
-  "Multi-drone simultaneous tracking",
-  "Behavioral pattern analysis",
-  "RF fingerprint identification",
+  "Multi-target simultaneous tracking",
+  "Pattern and behavior analysis",
+  "Advanced RF identification",
   "Automated threat scoring",
-  "Alert escalation workflows",
+  "Workflow and alert escalation",
 ];
 
 export function Roadmap() {
@@ -29,7 +29,8 @@ export function Roadmap() {
               Readiness & Roadmap
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Currently at TRL-5 with validated performance in relevant environments.
+              SkyFuse is currently assessed at TRL-5 and prepared for continued field validation in relevant operational
+              environments.
             </p>
           </div>
 

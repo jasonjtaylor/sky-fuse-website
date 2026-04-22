@@ -1,9 +1,9 @@
 import { AudioLines, Camera, Cpu, MonitorDot, Radio, Share2 } from "lucide-react";
 
 const sensors = [
-  { icon: Camera, label: "Camera", sublabel: "AI Vision" },
-  { icon: Radio, label: "RF Sensor", sublabel: "Signal Detection" },
-  { icon: AudioLines, label: "Acoustic", sublabel: "Sound Analysis" },
+  { icon: Camera, label: "Visual Sensor", sublabel: "EO / video feeds" },
+  { icon: Radio, label: "RF Sensor", sublabel: "Spectrum data" },
+  { icon: AudioLines, label: "Acoustic Sensor", sublabel: "Acoustic data" },
 ] as const;
 
 export function WhatIsSkyFuse() {
@@ -16,9 +16,9 @@ export function WhatIsSkyFuse() {
               What is <span className="text-primary">SkyFuse</span>?
             </h2>
             <p className="mx-auto max-w-3xl text-lg leading-relaxed text-muted-foreground">
-              A software-defined Counter-UAS detection system that runs on laptops and edge devices. SkyFuse fuses
-              camera, RF, and acoustic signals to provide real-time situational awareness with minimal hardware
-              requirements.
+              SkyFuse is a software-defined fusion and interoperability layer for counter-UAS operations, designed to run on
+              laptops and edge devices. It integrates RF, visual, acoustic, and radar-ready sensor inputs into a unified
+              operational picture with minimal hardware overhead.
             </p>
           </div>
 
@@ -53,7 +53,9 @@ export function WhatIsSkyFuse() {
                   <div className="absolute -inset-1 rounded-2xl bg-primary/5 blur-xl" />
                   <div className="relative text-center">
                     <Cpu className="mx-auto mb-2 h-10 w-10 text-primary" />
-                    <div className="font-display font-bold text-foreground">Fusion</div>
+                    <div className="font-display text-sm font-bold leading-tight text-foreground md:text-base">
+                      Fusion &amp; Correlation
+                    </div>
                     <div className="text-xs text-muted-foreground">Engine</div>
                   </div>
                 </div>
@@ -71,8 +73,8 @@ export function WhatIsSkyFuse() {
                     <MonitorDot className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <div className="font-display text-sm font-semibold text-foreground">Dashboard</div>
-                    <div className="text-xs text-muted-foreground">Live UI</div>
+                    <div className="font-display text-sm font-semibold text-foreground">Operator Dashboard</div>
+                    <div className="text-xs text-muted-foreground">Operational view</div>
                   </div>
                 </div>
                 <div className="group flex items-center gap-3 rounded-xl border border-border/50 bg-muted/50 p-4 transition-all duration-300 hover:border-primary/30">
@@ -80,8 +82,8 @@ export function WhatIsSkyFuse() {
                     <Share2 className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <div className="font-display text-sm font-semibold text-foreground">TAK/CoT</div>
-                    <div className="text-xs text-muted-foreground">Integration</div>
+                    <div className="font-display text-sm font-semibold text-foreground">TAK / CoT Output</div>
+                    <div className="text-xs text-muted-foreground">C2 export</div>
                   </div>
                 </div>
               </div>

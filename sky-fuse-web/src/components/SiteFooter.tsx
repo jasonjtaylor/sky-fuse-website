@@ -16,7 +16,7 @@ export function SiteFooter() {
                   Sky<span className="text-primary">Fuse</span>
                 </span>
               </div>
-              <p className="text-sm text-muted-foreground">Built for modern airspace awareness</p>
+              <p className="text-sm text-muted-foreground">Layered CUAS fusion and C2 integration</p>
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6">
@@ -52,7 +52,8 @@ export function SiteFooter() {
 
           <div className="mt-12 border-t border-border/50 pt-8">
             <p className="text-center text-xs text-muted-foreground">
-              Concept and prototype system — not a weapon. SkyFuse is a detection and awareness platform only.
+              Prototype fusion and awareness platform only — not a weapon system. SkyFuse supports detection, tracking,
+              and operational awareness.
             </p>
             <p className="mt-2 text-center text-xs text-muted-foreground">© {year} SkyFuse. All rights reserved.</p>
           </div>

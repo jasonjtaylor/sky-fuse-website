@@ -11,35 +11,34 @@ import {
 const items: { icon: LucideIcon; title: string; description: string }[] = [
   {
     icon: Eye,
-    title: "AI Vision Detection",
-    description:
-      "Detects and classifies drones using onboard AI computer vision models trained for small aerial targets.",
+    title: "Visual Sensor Integration",
+    description: "Integrates visual detection systems as one input to a unified operational track.",
   },
   {
     icon: Layers,
     title: "Multi-Sensor Fusion",
     description:
-      "Combines vision, RF, and acoustic cues into a single validated track, dramatically reducing false alarms.",
+      "Combines RF, visual, and acoustic detections into a single validated track to reduce operator burden and false alarms.",
   },
   {
     icon: Compass,
     title: "Live Bearing & Tracking",
-    description: "Radar-style compass display with smooth directional updates and real-time position estimation.",
+    description: "Provides real-time directional updates and track estimation for rapid operator awareness.",
   },
   {
     icon: LayoutDashboard,
     title: "Operator Dashboard",
-    description: "Browser-based UI with live video feed, map integration, and confidence metrics at a glance.",
+    description: "Browser-based interface with live video, map integration, and confidence metrics at a glance.",
   },
   {
     icon: Laptop,
     title: "Edge-Deployed",
-    description: "No cloud dependency — runs fully offline on laptops or rugged edge computers in austere environments.",
+    description: "Runs fully offline on laptops or rugged edge systems in austere environments.",
   },
   {
     icon: Radio,
     title: "TAK Compatible",
-    description: "Outputs Cursor-on-Target (CoT) events for seamless integration with ATAK and WinTAK systems.",
+    description: "Publishes Cursor-on-Target (CoT) for direct interoperability with ATAK and WinTAK environments.",
   },
 ];
 
@@ -54,7 +53,8 @@ export function Capabilities() {
             </span>
             <h2 className="mb-6 font-display text-3xl font-bold text-foreground md:text-5xl">Key Capabilities</h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              Everything you need for effective low-altitude drone detection in one integrated platform.
+              Vendor-agnostic fusion that unifies heterogeneous CUAS inputs into one operational picture—operator clarity
+              and TAK-ready output.
             </p>
           </div>
 

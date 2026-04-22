@@ -1,9 +1,9 @@
-import { Cpu, Radio, Shield } from "lucide-react";
+import { Cpu, Radio, Share2, Shield } from "lucide-react";
 
 const tags = [
   { icon: Cpu, label: "AI Systems" },
   { icon: Radio, label: "Sensor Integration" },
-  { icon: Shield, label: "Defence Tech" },
+  { icon: Share2, label: "C2 Integration" },
 ] as const;
 
 export function AboutProject() {
@@ -21,8 +21,8 @@ export function AboutProject() {
                 <Shield className="h-8 w-8 text-primary" />
               </div>
               <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
-                SkyFuse is developed by an independent technical lead with experience in AI systems, real-time sensor
-                integration, and tactical communications, informed by operational defence environments.
+                SkyFuse is being developed as a lightweight CUAS fusion and C2 integration layer aligned with real-world
+                operational requirements in sensor interoperability, tactical communications, and edge deployment.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {tags.map((t) => (

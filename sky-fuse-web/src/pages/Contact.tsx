@@ -47,7 +47,8 @@ export function Contact() {
               </span>
               <h1 className="mb-4 font-display text-4xl font-bold text-foreground md:text-5xl">Request a demo</h1>
               <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-                Reach out for product questions, partnership discussions, or to schedule a private briefing.
+                Discuss CUAS fusion integration, layered defence architecture, partnership, or schedule a private
+                briefing.
               </p>
             </div>
 
