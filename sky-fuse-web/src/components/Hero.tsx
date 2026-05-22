@@ -34,6 +34,15 @@ export function Hero() {
             <span className="text-primary text-glow">Fuse</span>
           </h1>
 
+          <div
+            className="mb-5 animate-fade-in-up flex flex-wrap justify-center gap-2 opacity-0 px-4"
+            style={{ animationDelay: "0.14s", animationFillMode: "forwards" }}
+          >
+            <span className="inline-flex max-w-full items-center justify-center rounded-full border border-[#06d6a0]/55 bg-[#06d6a0]/10 px-3 py-1.5 text-center text-xs font-semibold leading-snug text-[#06d6a0] md:px-4 md:text-sm">
+              Selected for DND IDEaS CUAS Sandbox 2026
+            </span>
+          </div>
+
           <p
             className="mb-6 animate-fade-in-up font-display text-xl font-light text-muted-foreground opacity-0 md:text-2xl"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}

@@ -25,6 +25,10 @@ export function AboutProject() {
                 CUAS requirements and real-world deployment constraints in sensor interoperability, tactical communications,
                 and edge environments.
               </p>
+              <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
+                SkyFuse was selected for the Canadian Department of National Defence IDEaS Counter-Uncrewed Aerial Systems
+                Sandbox 2026, demonstrating October 5-9, 2026 at CFB Suffield, Alberta.
+              </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {tags.map((t) => (
                   <div

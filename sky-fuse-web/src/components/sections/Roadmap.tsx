@@ -34,15 +34,16 @@ export function Roadmap() {
             </p>
           </div>
 
-          <div className="mb-12 flex justify-center">
-            <div className="inline-flex items-center gap-4 rounded-2xl border border-primary/30 bg-card px-6 py-4">
-              <div className="text-center">
+          <div className="mb-12 flex justify-center px-2">
+            <div className="flex w-full max-w-3xl flex-col items-center gap-4 rounded-2xl border border-primary/30 bg-card px-5 py-4 sm:flex-row sm:items-center sm:gap-6 sm:px-6">
+              <div className="shrink-0 text-center sm:text-left">
                 <div className="font-display text-3xl font-bold text-primary">TRL-5</div>
                 <div className="text-sm text-muted-foreground">Technology Readiness Level</div>
               </div>
-              <div className="h-12 w-px bg-border" />
-              <div className="max-w-xs text-sm text-muted-foreground">
-                Component validated in relevant environment with integrated subsystems
+              <div className="hidden h-12 w-px shrink-0 bg-border sm:block" />
+              <div className="w-full shrink border-t border-border pt-4 text-center text-sm leading-relaxed text-muted-foreground sm:border-t-0 sm:pt-0 sm:text-left">
+                Currently at TRL-5 with component validation in field-relevant conditions. Selected for the DND IDEaS CUAS
+                Sandbox 2026 demonstration at CFB Suffield, Alberta.
               </div>
             </div>
           </div>
