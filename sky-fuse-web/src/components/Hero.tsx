@@ -5,7 +5,7 @@ import { RadarBackdrop } from "@/components/RadarBackdrop";
 
 const stats = [
   { value: "3", label: "Multi-Sensor Integration" },
-  { value: "Real-time", label: "Detection" },
+  { value: "Realtime", label: "Detection" },
   { value: "100%", label: "Edge Ready" },
 ] as const;
 
