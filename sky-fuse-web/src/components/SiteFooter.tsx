@@ -16,7 +16,9 @@ export function SiteFooter() {
                   Sky<span className="text-primary">Fuse</span>
                 </span>
               </div>
-              <p className="text-sm text-muted-foreground">Layered CUAS fusion and C2 integration</p>
+              <p className="text-sm text-muted-foreground">
+                Sensor fusion and operational awareness for counter-UAS missions
+              </p>
             </div>
 
             <div className="flex flex-wrap items-center justify-center gap-6">

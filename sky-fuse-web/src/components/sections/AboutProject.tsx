@@ -20,14 +20,17 @@ export function AboutProject() {
               <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10">
                 <Shield className="h-8 w-8 text-primary" />
               </div>
+              <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
+                SkyFuse is a software-defined sensor fusion and operational awareness platform designed for counter-UAS and
+                ISR missions.
+              </p>
               <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
-                SkyFuse is being developed as a lightweight CUAS fusion and C2 integration layer aligned with operational
-                CUAS requirements and real-world deployment constraints in sensor interoperability, tactical communications,
-                and edge environments.
+                The platform serves as a vendor-agnostic interoperability layer between heterogeneous sensors and command
+                systems, enabling operators to transform multiple streams of sensor data into a unified operational picture.
               </p>
               <p className="mb-8 text-lg leading-relaxed text-muted-foreground">
                 SkyFuse was selected for the Canadian Department of National Defence IDEaS Counter-Uncrewed Aerial Systems
-                Sandbox 2026, demonstrating October 5-9, 2026 at CFB Suffield, Alberta.
+                Sandbox 2026, demonstrating October 5–9, 2026 at CFB Suffield, Alberta.
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 {tags.map((t) => (

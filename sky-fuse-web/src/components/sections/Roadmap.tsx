@@ -71,7 +71,7 @@ export function Roadmap() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-muted">
                   <ArrowRight className="h-5 w-5 text-muted-foreground" />
                 </div>
-                <h3 className="font-display text-xl font-semibold text-foreground">Future Growth</h3>
+                <h3 className="font-display text-xl font-semibold text-foreground">Planned Development Areas</h3>
               </div>
               <ul className="space-y-3">
                 {future.map((line) => (

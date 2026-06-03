@@ -47,15 +47,16 @@ export function Hero() {
             className="mb-6 animate-fade-in-up font-display text-xl font-light text-muted-foreground opacity-0 md:text-2xl"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            Unified CUAS Sensor Fusion &amp; C2 Integration
+            Unified Operational Awareness for Counter-UAS Operations
           </p>
 
           <p
             className="mx-auto mb-10 max-w-2xl animate-fade-in-up text-lg leading-relaxed text-muted-foreground/80 opacity-0"
             style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
           >
-            SkyFuse fuses RF, visual, and acoustic sensor systems into a single operational picture, enabling layered
-            CUAS operations without replacing existing systems.
+            Most CUAS deployments require operators to manually correlate information from multiple sensor systems. SkyFuse
+            transforms RF, visual, acoustic, and other sensor inputs into a unified operational picture, reducing operator
+            workload and accelerating decision-making without replacing existing systems.
           </p>
 
           <div
