@@ -16,8 +16,8 @@ export function WhatIsSkyFuse() {
               What is <span className="text-primary">SkyFuse</span>?
             </h2>
             <p className="mx-auto max-w-3xl text-lg leading-relaxed text-muted-foreground">
-              SkyFuse is a software-defined fusion and interoperability layer for counter-UAS operations, designed to run on
-              laptops and edge devices. It integrates RF, visual, and acoustic sensor systems into a unified operational
+              SkyFuse is a vendor-agnostic sensor fusion and decision-support platform for counter-UAS and ISR operations,
+              designed to run on laptops and edge devices. It integrates RF, visual, and acoustic sensor systems into a unified operational
               picture, with an architecture extensible to additional sensor types (e.g., radar).
             </p>
           </div>
@@ -54,9 +54,9 @@ export function WhatIsSkyFuse() {
                   <div className="relative text-center">
                     <Cpu className="mx-auto mb-2 h-10 w-10 text-primary" />
                     <div className="font-display text-sm font-bold leading-tight text-foreground md:text-base">
-                      Fusion &amp; Correlation
+                      Sensor Fusion &amp; Decision
                     </div>
-                    <div className="text-xs text-muted-foreground">Engine</div>
+                    <div className="text-xs text-muted-foreground">Layer</div>
                   </div>
                 </div>
               </div>

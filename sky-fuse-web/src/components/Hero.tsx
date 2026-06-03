@@ -47,7 +47,7 @@ export function Hero() {
             className="mb-6 animate-fade-in-up font-display text-xl font-light text-muted-foreground opacity-0 md:text-2xl"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            Unified Operational Awareness for Counter-UAS Operations
+            Transforming Disconnected Sensors into Operational Intelligence
           </p>
 
           <p
