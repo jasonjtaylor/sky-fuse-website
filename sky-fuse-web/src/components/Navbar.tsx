@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, Radar, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SkyFuseLogo } from "@/components/SkyFuseLogo";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -35,11 +36,8 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6">
         <div className="flex h-16 items-center justify-between md:h-20">
-          <Link to="/" className="group flex items-center gap-2">
-            <Radar className="h-7 w-7 text-primary transition-transform duration-300 group-hover:rotate-45" />
-            <span className="font-display text-xl font-semibold text-foreground">
-              Sky<span className="text-primary">Fuse</span>
-            </span>
+          <Link to="/" className="group flex items-center transition-opacity duration-300 hover:opacity-90">
+            <SkyFuseLogo className="h-8 md:h-9" />
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">

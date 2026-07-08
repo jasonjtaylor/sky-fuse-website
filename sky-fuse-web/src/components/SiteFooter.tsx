@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Radar } from "lucide-react";
+import { SkyFuseLogo } from "@/components/SkyFuseLogo";
 import { CONTACT_EMAIL } from "@/lib/site";
 
 export function SiteFooter() {
@@ -10,12 +10,7 @@ export function SiteFooter() {
         <div className="mx-auto max-w-6xl">
           <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
             <div className="flex flex-col items-center gap-3 md:items-start">
-              <div className="flex items-center gap-2">
-                <Radar className="h-6 w-6 text-primary" />
-                <span className="font-display text-xl font-semibold text-foreground">
-                  Sky<span className="text-primary">Fuse</span>
-                </span>
-              </div>
+              <SkyFuseLogo className="h-7" />
               <p className="text-sm text-muted-foreground">
                 Sensor fusion and operational awareness for counter-UAS missions
               </p>
