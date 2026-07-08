@@ -10,7 +10,7 @@ export function SiteFooter() {
         <div className="mx-auto max-w-6xl">
           <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
             <div className="flex flex-col items-center gap-3 md:items-start">
-              <SkyFuseLogo className="h-10 md:h-11" />
+              <SkyFuseLogo className="h-12 md:h-14" />
               <p className="text-sm text-muted-foreground">
                 Sensor fusion and operational awareness for counter-UAS missions
               </p>
