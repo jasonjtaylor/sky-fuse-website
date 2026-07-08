@@ -11,7 +11,7 @@ export function SkyFuseLogo({ className }: SkyFuseLogoProps) {
       alt="SkyFuse"
       width={179}
       height={100}
-      className={cn("h-8 w-auto", className)}
+      className={cn("h-11 w-auto md:h-14", className)}
       loading="eager"
       decoding="async"
     />

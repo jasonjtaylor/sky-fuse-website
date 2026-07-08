@@ -37,7 +37,7 @@ export function Navbar() {
       <div className="container mx-auto px-6">
         <div className="flex h-16 items-center justify-between md:h-20">
           <Link to="/" className="group flex items-center transition-opacity duration-300 hover:opacity-90">
-            <SkyFuseLogo className="h-8 md:h-9" />
+            <SkyFuseLogo />
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">
