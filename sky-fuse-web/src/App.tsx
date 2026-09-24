@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
 import { Contact } from "@/pages/Contact";
+import { Defsec } from "@/pages/Defsec";
 import { Home } from "@/pages/Home";
 import { NotFound } from "@/pages/NotFound";
 
@@ -23,6 +24,15 @@ export default function App() {
             <div className="min-h-screen bg-background">
               <Navbar />
               <Contact />
+            </div>
+          }
+        />
+        <Route
+          path="/defsec"
+          element={
+            <div className="min-h-screen bg-background">
+              <Navbar />
+              <Defsec />
             </div>
           }
         />
