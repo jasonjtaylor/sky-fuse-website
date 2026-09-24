@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Mail, ArrowRight, Layers, Brain, Radio } from "lucide-react";
+import { Mail, ArrowRight, Layers, Brain, Radio, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SiteFooter } from "@/components/SiteFooter";
 import { DefsecVideo } from "@/components/DefsecVideo";
@@ -120,6 +120,16 @@ export function Defsec() {
                     <ArrowRight className="h-5 w-5" />
                   </Link>
                 </Button>
+              </div>
+              <div className="mt-6">
+                <a
+                  href="/defsec/SkyFuse-OnePager.pdf"
+                  download
+                  className="inline-flex items-center gap-2 text-sm text-primary hover:underline"
+                >
+                  <FileDown className="h-4 w-4" />
+                  Download the one-pager (PDF)
+                </a>
               </div>
             </div>
           </div>

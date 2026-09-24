@@ -29,21 +29,19 @@ export function Roadmap() {
               Readiness & Roadmap
             </h2>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-              SkyFuse is currently assessed at TRL-5 and prepared for continued field validation in relevant operational
-              environments.
+              SkyFuse is currently assessed at TRL 6 following live-UAS validation at the DND IDEaS Counter-UAS Sandbox, CFB Suffield, September 2026.
             </p>
           </div>
 
           <div className="mb-12 flex justify-center px-2">
             <div className="flex w-full max-w-3xl flex-col items-center gap-4 rounded-2xl border border-primary/30 bg-card px-5 py-4 sm:flex-row sm:items-center sm:gap-6 sm:px-6">
               <div className="shrink-0 text-center sm:text-left">
-                <div className="font-display text-3xl font-bold text-primary">TRL-5</div>
+                <div className="font-display text-3xl font-bold text-primary">TRL 6</div>
                 <div className="text-sm text-muted-foreground">Technology Readiness Level</div>
               </div>
               <div className="hidden h-12 w-px shrink-0 bg-border sm:block" />
               <div className="w-full shrink border-t border-border pt-4 text-center text-sm leading-relaxed text-muted-foreground sm:border-t-0 sm:pt-0 sm:text-left">
-                Currently at TRL-5 with component validation in field-relevant conditions. Selected for the DND IDEaS CUAS
-                Sandbox 2026 demonstration at CFB Suffield, Alberta.
+                TRL 6. Multi-sensor fusion, C2 integration and recording pipeline exercised against live UAS flights, with tracks published to DRDC's TAK server. Next phase targets TRL 7 at the next operational trial.
               </div>
             </div>
           </div>

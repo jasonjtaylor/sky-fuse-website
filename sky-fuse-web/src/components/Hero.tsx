@@ -39,7 +39,7 @@ export function Hero() {
             style={{ animationDelay: "0.14s", animationFillMode: "forwards" }}
           >
             <span className="inline-flex max-w-full items-center justify-center rounded-full border border-[#06d6a0]/55 bg-[#06d6a0]/10 px-3 py-1.5 text-center text-xs font-semibold leading-snug text-[#06d6a0] md:px-4 md:text-sm">
-              Selected for DND IDEaS CUAS Sandbox 2026
+              Validated at the DND IDEaS Counter-UAS Sandbox · CFB Suffield · September 2026 · TRL 6
             </span>
           </div>
 
