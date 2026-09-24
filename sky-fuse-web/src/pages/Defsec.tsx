@@ -10,7 +10,7 @@ const features = [
     icon: Layers,
     title: "Vendor Neutral",
     description:
-      "Integrates sensors from any manufacturer. No lock-in, no rip-and-replace.",
+      "Built to work with sensors from different manufacturers. No lock-in, no rip-and-replace.",
   },
   {
     icon: Brain,

@@ -10,4 +10,5 @@
  *
  * Leave empty ("") to show a placeholder.
  */
-export const DEFSEC_VIDEO_URL = "";
+export const DEFSEC_VIDEO_URL = "/defsec/defsec-video.mp4";
+export const DEFSEC_VIDEO_POSTER = "/defsec/defsec-poster.jpg";

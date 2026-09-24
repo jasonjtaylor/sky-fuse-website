@@ -1,4 +1,4 @@
-import { DEFSEC_VIDEO_URL } from "@/lib/defsec-config";
+import { DEFSEC_VIDEO_URL, DEFSEC_VIDEO_POSTER } from "@/lib/defsec-config";
 import { SkyFuseLogo } from "@/components/SkyFuseLogo";
 
 function isEmbedUrl(url: string): boolean {
@@ -22,13 +22,23 @@ function VideoPlaceholder() {
 export function DefsecVideo() {
   const url = DEFSEC_VIDEO_URL.trim();
 
-  return (
-    <div className="relative w-full overflow-hidden rounded-xl border border-border bg-card shadow-[0_0_30px_hsl(166_100%_70%/0.1)]">
-      <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
-        <div className="absolute inset-0">
-          {!url ? (
+  if (!url) {
+    return (
+      <div className="relative w-full overflow-hidden rounded-xl border border-border bg-card shadow-[0_0_30px_hsl(166_100%_70%/0.1)]">
+        <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+          <div className="absolute inset-0">
             <VideoPlaceholder />
-          ) : isEmbedUrl(url) ? (
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (isEmbedUrl(url)) {
+    return (
+      <div className="relative w-full overflow-hidden rounded-xl border border-border bg-card shadow-[0_0_30px_hsl(166_100%_70%/0.1)]">
+        <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+          <div className="absolute inset-0">
             <iframe
               src={url}
               title="SkyFuse DEFSEC Video"
@@ -36,18 +46,27 @@ export function DefsecVideo() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
-          ) : (
-            <video
-              src={url}
-              controls
-              playsInline
-              className="h-full w-full object-cover"
-            >
-              <track kind="captions" />
-            </video>
-          )}
+          </div>
         </div>
       </div>
+    );
+  }
+
+  return (
+    <div className="relative w-full overflow-hidden rounded-xl border border-border bg-card shadow-[0_0_30px_hsl(166_100%_70%/0.1)]">
+      <video
+        src={url}
+        poster={DEFSEC_VIDEO_POSTER}
+        width={1240}
+        height={920}
+        controls
+        playsInline
+        muted
+        loop
+        autoPlay
+        preload="metadata"
+        className="h-auto w-full object-contain"
+      />
     </div>
   );
 }
