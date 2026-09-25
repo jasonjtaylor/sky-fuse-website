@@ -22,7 +22,7 @@ const features = [
     icon: Radio,
     title: "Into C2 Today",
     description:
-      "Outputs TAK/CoT natively — drops into existing command workflows.",
+      "Outputs TAK/CoT natively and drops into existing command workflows.",
   },
 ] as const;
 
@@ -33,15 +33,15 @@ export function Defsec() {
     if (meta) {
       meta.setAttribute(
         "content",
-        "SkyFuse — vendor-neutral CUAS sensor fusion with explainable output, integrating into TAK/CoT command workflows."
+        "Vendor-neutral sensor fusion for counter-UAS and ISR. Validated at the DND IDEaS Counter-UAS Sandbox, CFB Suffield, September 2026. TRL 6."
       );
     }
     return () => {
-      document.title = "Sky Fuse";
+      document.title = "SkyFuse";
       if (meta) {
         meta.setAttribute(
           "content",
-          "SkyFuse — software-defined CUAS sensor fusion and C2 gateway. Unified operational picture without replacing existing systems."
+          "Vendor-neutral sensor fusion for counter-UAS and ISR. Validated at the DND IDEaS Counter-UAS Sandbox, CFB Suffield, September 2026. TRL 6."
         );
       }
     };

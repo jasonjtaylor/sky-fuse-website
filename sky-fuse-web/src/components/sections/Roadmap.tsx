@@ -2,6 +2,7 @@ import { ArrowRight, CheckCircle2, Circle, Layers } from "lucide-react";
 
 const current = [
   "Multi-sensor fusion engine",
+  "Fusion explainability: every track shows which sensors contributed and how the score was reached",
   "Real-time bearing estimation",
   "Browser-based operator dashboard",
   "TAK / CoT integration",
@@ -10,10 +11,10 @@ const current = [
 
 const future = [
   "Multi-target simultaneous tracking",
-  "Track-level behavioral analysis",
+  "Multi-vendor sensor integration",
+  "Disconnected-edge C2 deployment",
+  "Track-level behavioural analysis",
   "Advanced RF identification",
-  "Automated threat scoring",
-  "Workflow and alert escalation",
 ];
 
 export function Roadmap() {

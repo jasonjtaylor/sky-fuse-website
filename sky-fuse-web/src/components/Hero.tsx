@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 import { RadarBackdrop } from "@/components/RadarBackdrop";
 
 const stats = [
-  { value: "3", label: "Multi-Sensor Integration" },
-  { value: "Realtime", label: "Detection" },
-  { value: "100%", label: "Edge Ready" },
+  { value: "4", label: "Sensor types fused at Suffield" },
+  { value: "TAK + SAPIENT", label: "C2 output" },
+  { value: "45", label: "Recorded range runs" },
 ] as const;
 
 export function Hero() {
@@ -23,15 +23,14 @@ export function Hero() {
             style={{ animationDelay: "0s", animationFillMode: "forwards" }}
           >
             <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
-            <span className="text-sm font-medium text-primary">Layered CUAS Fusion &amp; C2 Gateway</span>
+            <span className="text-sm font-medium text-primary">Vendor-neutral sensor fusion</span>
           </div>
 
           <h1
             className="mb-6 animate-fade-in-up font-display text-5xl font-bold tracking-tight opacity-0 md:text-7xl lg:text-8xl"
             style={{ animationDelay: "0.1s", animationFillMode: "forwards" }}
           >
-            <span className="text-foreground">Sky</span>
-            <span className="text-primary text-glow">Fuse</span>
+            <span className="text-foreground">SkyFuse</span>
           </h1>
 
           <div
@@ -47,7 +46,7 @@ export function Hero() {
             className="mb-6 animate-fade-in-up font-display text-xl font-light text-muted-foreground opacity-0 md:text-2xl"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            Transforming Disconnected Sensors into Operational Intelligence
+            Sensors detect. SkyFuse reconciles. Operators decide.
           </p>
 
           <p
@@ -55,8 +54,7 @@ export function Hero() {
             style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}
           >
             Most CUAS deployments require operators to manually correlate information from multiple sensor systems. SkyFuse
-            transforms RF, visual, acoustic, and other sensor inputs into a unified operational picture, reducing operator
-            workload and accelerating decision-making without replacing existing systems.
+            transforms RF, visual, acoustic, and other sensor inputs into a unified operational picture. Every track shows which sensors contributed and why, published straight into the TAK and SAPIENT C2 you already run.
           </p>
 
           <div
@@ -70,7 +68,7 @@ export function Hero() {
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <Link to="/contact">
+              <Link to="/defsec">
                 <Mail className="h-5 w-5" />
                 Request Demo
               </Link>
