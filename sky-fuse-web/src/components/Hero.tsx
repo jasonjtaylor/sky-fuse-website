@@ -6,7 +6,7 @@ import { RadarBackdrop } from "@/components/RadarBackdrop";
 const stats = [
   { value: "4", label: "Sensor types fused at Suffield" },
   { value: "TAK + SAPIENT", label: "C2 output" },
-  { value: "65", label: "Recorded range runs" },
+  { value: "45", label: "Recorded range runs" },
 ] as const;
 
 export function Hero() {
